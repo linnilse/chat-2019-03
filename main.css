@@ -1,0 +1,40 @@
+label {
+    display: block;
+    font-size: 2em;
+}
+
+ input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ input[type="submit"] {
+    background-color: #7cb366;
+    border: 1px solid #5b8a48;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 0.4em;
+    margin-top: 10px;
+}
+
+#data, #result, #login{
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+#data, #result{
+    display:none;
+
+}
+.prepend_messege {
+    border: 1px solid #ccc;
+    padding: 0 1em;
+}
+
+.prepend_messege:first-child {
+    border: 1px solid rgb(106, 209, 225);
+    padding: 0 1em;
+    background-color:rgb(241, 241, 241);
+}
+
