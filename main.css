@@ -29,12 +29,13 @@ textarea {
 }
 .prepend_messege {
     border: 1px solid #ccc;
+    background-color:rgb(241, 241, 241);
     padding: 0 1em;
 }
 
 .prepend_messege:first-child {
     border: 1px solid rgb(106, 209, 225);
     padding: 0 1em;
-    background-color:rgb(241, 241, 241);
+    background-color:#ffffff;
 }
 
