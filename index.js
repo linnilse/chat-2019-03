@@ -18,8 +18,6 @@ $("#login").submit(function (event) {
     }
 })
 
-
-
 $("#data").submit(function (event) {
     event.preventDefault();
     const message = $("#message").val();
@@ -49,7 +47,6 @@ messeges.on('child_added', (snapshot) => {
     );
 
 });
-
 
 messeges.on('child_removed', (snapshot) => {
     console.log("A child was removed!");
