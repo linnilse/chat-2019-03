@@ -1,6 +1,6 @@
 # Created by https://www.gitignore.io/api/node,firebase,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,firebase,visualstudiocode
-
+firebase.js
 ### Firebase ###
 .idea
 **/node_modules/*
@@ -9,7 +9,7 @@
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
-firebase.js
+
 
 ### Node ###
 # Logs
